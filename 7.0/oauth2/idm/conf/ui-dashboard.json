@@ -1,6 +1,9 @@
 {
-    "dashboard" : {
-        "widgets" : [ ]
-    },
-    "adminDashboards" : [ ]
+  "dashboard": {
+    "widgets": []
+  },
+  "adminDashboards": [],
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

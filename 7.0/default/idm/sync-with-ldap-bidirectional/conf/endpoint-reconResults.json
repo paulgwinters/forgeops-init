@@ -1,5 +1,8 @@
 {
-    "type" : "text/javascript",
-    "context" : "endpoint/reconResults",
-    "file" : "reconResults.js"
+  "type": "text/javascript",
+  "context": "endpoint/reconResults",
+  "file": "reconResults.js",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

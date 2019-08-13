@@ -1,5 +1,8 @@
 {
-    "context" : "endpoint/linkedView/*",
-    "type" : "text/javascript",
-    "source" : "require('linkedView').fetch(request.resourcePath);"
+  "context": "endpoint/linkedView/*",
+  "type": "text/javascript",
+  "source": "require('linkedView').fetch(request.resourcePath);",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

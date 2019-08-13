@@ -1,12 +1,15 @@
 {
-    "enabled" : false,
-    "type": "simple",
-    "repeatInterval": 1800000,
-    "persisted" : true,
-    "concurrentExecution" : false,
-    "invokeService": "sync",
-    "invokeContext": {
-        "action": "reconcile",
-        "mapping": "systemLdapAccounts_managedUser"
-    }
+  "enabled": false,
+  "type": "simple",
+  "repeatInterval": 1800000,
+  "persisted": true,
+  "concurrentExecution": false,
+  "invokeService": "sync",
+  "invokeContext": {
+    "action": "reconcile",
+    "mapping": "systemLdapAccounts_managedUser"
+  },
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

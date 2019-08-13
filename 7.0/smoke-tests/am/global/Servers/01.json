@@ -1,14 +1,14 @@
 {
-  "metadata" : {
-    "realm" : null,
-    "amsterVersion" : "&{version}",
-    "entityType" : "Servers",
-    "entityId" : "01",
-    "pathParams" : { }
+  "metadata": {
+    "realm": null,
+    "amsterVersion": "7.0.0-SNAPSHOT",
+    "entityType": "Servers",
+    "entityId": "01",
+    "pathParams": {}
   },
-  "data" : {
-    "_id" : "01",
-    "url" : "http://openam:80/am",
-    "siteName" : "site1"
+  "data": {
+    "_id": "01",
+    "url": "http://openam:80/am",
+    "siteName": "site1"
   }
 }

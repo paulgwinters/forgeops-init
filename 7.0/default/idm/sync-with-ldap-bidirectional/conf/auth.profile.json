@@ -5,5 +5,8 @@
     "selfservice/profile"
   ],
   "authenticationRole": "internal/role/openidm-authenticated",
-  "authorizationRole": "internal/role/openidm-authorized"
+  "authorizationRole": "internal/role/openidm-authorized",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

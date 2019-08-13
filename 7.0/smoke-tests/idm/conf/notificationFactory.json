@@ -1,9 +1,12 @@
 {
-    "enabled" : true,
-    "threadPool" : {
-        "steadyPoolThreads" : 2,
-        "maxPoolThreads" : 10,
-        "threadKeepAlive" : 60,
-        "maxQueueSize" : 20000
-    }
+  "enabled": true,
+  "threadPool": {
+    "steadyPoolThreads": 2,
+    "maxPoolThreads": 10,
+    "threadKeepAlive": 60,
+    "maxQueueSize": 20000
+  },
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

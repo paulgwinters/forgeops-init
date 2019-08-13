@@ -1,6 +1,9 @@
 {
-    "enabled" : true,
-    "urlContextRoot" : "/api",
-    "defaultDir" : "&{idm.install.dir}/ui/api/default",
-    "extensionDir" : "&{idm.install.dir}/ui/api/extension"
+  "enabled": true,
+  "urlContextRoot": "/api",
+  "defaultDir": "&{idm.install.dir}/ui/api/default",
+  "extensionDir": "&{idm.install.dir}/ui/api/extension",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

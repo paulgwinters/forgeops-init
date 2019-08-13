@@ -1,4 +1,7 @@
 {
-  "cleanupDwellSeconds" : 600,
-  "entryExpireSeconds" : 1800
+  "cleanupDwellSeconds": 600,
+  "entryExpireSeconds": 1800,
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

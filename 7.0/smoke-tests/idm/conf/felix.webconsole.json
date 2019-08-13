@@ -1,4 +1,7 @@
 {
-  "username" : "admin",
-  "password" : "admin"
+  "username": "admin",
+  "password": "admin",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

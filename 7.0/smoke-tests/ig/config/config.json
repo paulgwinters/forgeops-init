@@ -37,27 +37,30 @@
       "name": "AmService-1",
       "type": "AmService",
       "config": {
-          "url": "http://openam:80/am",
-          "realm": "/",
-          "agent": {
-              "username": "ig-agent",
-              "password": "password"
-          },
-          "sessionCache": {
-              "enabled": true
-          }
+        "url": "http://openam:80/am",
+        "realm": "/",
+        "agent": {
+          "username": "ig-agent",
+          "password": "password"
+        },
+        "sessionCache": {
+          "enabled": true
+        }
       }
     },
-  {
+    {
       "name": "ForgeRockClientHandler",
       "type": "ClientHandler",
       "config": {
-          "trustManager": {
-              "type": "TrustAllManager"
-            }
+        "trustManager": {
+          "type": "TrustAllManager"
+        }
       },
       "_capture": "all"
-  }
+    }
   ],
-  "monitor": true
+  "monitor": true,
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

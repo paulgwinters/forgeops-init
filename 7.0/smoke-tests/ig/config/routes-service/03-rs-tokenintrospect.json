@@ -58,5 +58,8 @@
         }
       }
     }
+  },
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
   }
 }

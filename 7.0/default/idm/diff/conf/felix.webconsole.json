@@ -1,8 +1,7 @@
-
-
-
-
 {
-  "username" : "admin",
-  "password" : "&{openidm.repo.password}"
+  "username": "admin",
+  "password": "&{openidm.repo.password}",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

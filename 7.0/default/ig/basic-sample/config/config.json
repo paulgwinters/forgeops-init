@@ -63,6 +63,8 @@
       }
     }
   ],
-  "monitor": true
+  "monitor": true,
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }
-

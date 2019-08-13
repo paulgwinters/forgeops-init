@@ -15,5 +15,8 @@
       }
     }
   ],
-  "mode": "PRODUCTION"
+  "mode": "PRODUCTION",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

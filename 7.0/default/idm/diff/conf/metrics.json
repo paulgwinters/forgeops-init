@@ -1,4 +1,7 @@
 {
-    "defaultRegistry" : "idm-default",
-    "enabled" : true
+  "defaultRegistry": "idm-default",
+  "enabled": true,
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

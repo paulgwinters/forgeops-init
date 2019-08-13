@@ -1,4 +1,7 @@
 {
-    "type" : "text/javascript",
-    "file" : "workflow/getavailableuserstoassign.js"
+  "type": "text/javascript",
+  "file": "workflow/getavailableuserstoassign.js",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

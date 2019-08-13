@@ -1,5 +1,8 @@
 {
-    "context" : "endpoint/oauthproxy",
-    "type" : "text/javascript",
-    "file" : "oauthProxy.js"
+  "context": "endpoint/oauthproxy",
+  "type": "text/javascript",
+  "file": "oauthProxy.js",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

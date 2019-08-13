@@ -1,6 +1,9 @@
 {
-    "enabled" : true,
-    "urlContextRoot" : "/oauthReturn",
-    "defaultDir" : "&{idm.install.dir}/ui/oauth/default",
-    "extensionDir" : "&{idm.install.dir}/ui/oauth/extension"
+  "enabled": true,
+  "urlContextRoot": "/oauthReturn",
+  "defaultDir": "&{idm.install.dir}/ui/oauth/default",
+  "extensionDir": "&{idm.install.dir}/ui/oauth/extension",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

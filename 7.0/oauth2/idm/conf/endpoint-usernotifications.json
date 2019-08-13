@@ -1,4 +1,7 @@
 {
-    "type" : "text/javascript",
-    "file" : "ui/notification/userNotifications.js"
+  "type": "text/javascript",
+  "file": "ui/notification/userNotifications.js",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

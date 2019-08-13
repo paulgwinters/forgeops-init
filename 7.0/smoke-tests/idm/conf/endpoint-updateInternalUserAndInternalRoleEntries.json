@@ -1,4 +1,7 @@
 {
-  "type" : "text/javascript",
-  "file" : "update/updateInternalUserAndInternalRoleEntries.js"
+  "type": "text/javascript",
+  "file": "update/updateInternalUserAndInternalRoleEntries.js",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

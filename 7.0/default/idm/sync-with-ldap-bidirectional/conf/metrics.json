@@ -1,4 +1,7 @@
 {
-    "enabled" : false,
-    "prometheusRole" : "&{openidm.prometheus.role}"
+  "enabled": false,
+  "prometheusRole": "&{openidm.prometheus.role}",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

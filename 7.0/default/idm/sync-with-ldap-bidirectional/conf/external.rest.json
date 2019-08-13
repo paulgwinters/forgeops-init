@@ -1,3 +1,6 @@
 {
-    "hostnameVerifier" : "&{openidm.external.rest.hostnameVerifier}"
+  "hostnameVerifier": "&{openidm.external.rest.hostnameVerifier}",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

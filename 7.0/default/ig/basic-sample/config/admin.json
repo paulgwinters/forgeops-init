@@ -26,8 +26,11 @@
           "password": "password"
         }
       }
-    }    
+    }
   ],
   "mode": "PRODUCTION",
-  "prefix": "openig"
+  "prefix": "openig",
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

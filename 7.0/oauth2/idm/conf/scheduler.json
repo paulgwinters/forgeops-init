@@ -1,10 +1,13 @@
 {
-    "threadPool" : {
-        "threadCount" : 10
-    },
-    "scheduler" : {
-        "executePersistentSchedules" : {
-            "$bool" : "&{openidm.scheduler.execute.persistent.schedules}"
-        }
+  "threadPool": {
+    "threadCount": 10
+  },
+  "scheduler": {
+    "executePersistentSchedules": {
+      "$bool": "&{openidm.scheduler.execute.persistent.schedules}"
     }
+  },
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

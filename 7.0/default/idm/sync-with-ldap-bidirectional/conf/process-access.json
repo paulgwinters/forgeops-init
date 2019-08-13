@@ -1,18 +1,21 @@
 {
-    "workflowAccess" : [
-        {
-            "propertiesCheck" : {
-                "property" : "_id",
-                "matches" : ".*",
-                "requiresRole" : "internal/role/openidm-authorized"
-            }
-        },
-        {
-            "propertiesCheck" : {
-                "property" : "_id",
-                "matches" : ".*",
-                "requiresRole" : "internal/role/openidm-admin"
-            }
-        }
-    ]
+  "workflowAccess": [
+    {
+      "propertiesCheck": {
+        "property": "_id",
+        "matches": ".*",
+        "requiresRole": "internal/role/openidm-authorized"
+      }
+    },
+    {
+      "propertiesCheck": {
+        "property": "_id",
+        "matches": ".*",
+        "requiresRole": "internal/role/openidm-admin"
+      }
+    }
+  ],
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

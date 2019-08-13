@@ -1,15 +1,18 @@
 {
-    "filters" : [
-        {
-            "pattern" : "^(managed|system|repo/internal)($|(/.+))",
-            "onRequest" : {
-                "type" : "text/javascript",
-                "file" : "policyFilter.js"
-            },
-            "methods" : [
-                "create",
-                "update"
-            ]
-        }
-    ]
+  "filters": [
+    {
+      "pattern": "^(managed|system|repo/internal)($|(/.+))",
+      "onRequest": {
+        "type": "text/javascript",
+        "file": "policyFilter.js"
+      },
+      "methods": [
+        "create",
+        "update"
+      ]
+    }
+  ],
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }

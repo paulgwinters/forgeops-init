@@ -1,17 +1,17 @@
 {
-  "objects" : [
+  "objects": [
     {
-      "name" : "user",
-      "properties" : {
-        "authzRoles" : {
-          "items" : {
-            "resourceCollection" : [
+      "name": "user",
+      "properties": {
+        "authzRoles": {
+          "items": {
+            "resourceCollection": [
               {
-                "path" : "managed/role",
-                "label" : "Role",
-                "query" : {
-                  "queryFilter" : "true",
-                  "fields" : [
+                "path": "managed/role",
+                "label": "Role",
+                "query": {
+                  "queryFilter": "true",
+                  "fields": [
                     "name"
                   ]
                 }
@@ -22,18 +22,18 @@
       }
     },
     {
-      "name" : "role",
-      "properties" : {
-        "authzMembers" : {
-          "items" : {
-            "resourceCollection" : [
+      "name": "role",
+      "properties": {
+        "authzMembers": {
+          "items": {
+            "resourceCollection": [
               {
-                "path" : "managed/user",
-                "notify" : true,
-                "label" : "User",
-                "query" : {
-                  "queryFilter" : "true",
-                  "fields" : [
+                "path": "managed/user",
+                "notify": true,
+                "label": "User",
+                "query": {
+                  "queryFilter": "true",
+                  "fields": [
                     "userName",
                     "givenName",
                     "sn"
@@ -45,5 +45,8 @@
         }
       }
     }
-  ]
+  ],
+  "metadata": {
+    "amsterVersion": "7.0.0-SNAPSHOT"
+  }
 }
